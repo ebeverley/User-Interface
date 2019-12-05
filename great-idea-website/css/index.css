@@ -65,67 +65,134 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 *{
 	width:100%;
-	border: 1px solid black;
+	margin: 0 auto;
 }
 nav{
 	text-align:middle;
 	display:inline;
-	padding-left:220px;
+	position:fixed;
+	width:50%;
+	top:0;
+	padding-left:330px;
 }
 nav a{
 	display:inline;
+	font-size:15px;
 	width:50%;
 	color:gray;
+	background-color:lightblue;
+	padding: 0 5px 0;
+	border:1px solid black;
+	border-radius:5px;
 	text-decoration:none;
-	margin:2.5%;
+	margin:3%;
 
+}
+nav a:hover{
+	color:white;
 }
 .logo{
 display:inline;
-width:35%;
-float:right;
+position:fixed;
+top:0;
+width:8%;
+margin-left:28%;
 }
 .topbar{
 	display:inline-block;
+	width:100%;
 }
 h1{
 	font-size:60px;
 	display:inline-block;
 	text-align:center;
-	height:150px;
-	padding-right:4%;
-	margin: 5% 8% 0px 0%;
-	width:25%
+	vertical-align:top;
+	padding-top:120px;
+	padding-right:1%;
+	margin-left:22%;
+	margin-bottom:-4%;
+	width:20%;
+	
 }
 .headerimage{
-	width: 25%;
+	width: 20%;
 	display:inline-block;
-	float:right;
-	padding-right:60px;
-	margin: 0px 0px 80px;
+	text-align:right;
+	margin-top:2%;
+	margin-right:10%;
+	margin-left:-3%;
+}
+.startbutton{
+	display:inline;
+	padding-right:2%;
+	padding-left:2%;
+	border: 1px solid black;
+	margin-left:-15%;
+	margin-right:13%;
 }
 .topsection{
 	display:inline-block;
-	width:25%
-	margin: 0 3.5%;
+	width:27%
+	margin: 0 2.5%;
+}
+.topsectioncontainer{
+	display:inline-block;
+	width:100%;
+	padding-left:12%;
+	margin: 2% 5%;
 }
 .features{
-	height:50px;
 	display:inline-block;
-	width:20%;
-	margin:20% 3% 0px 15%;
+	height:42px;
+	width:29.5%;
+	margin-right:4%;
 }
 .about{
-	height:50px;
 	display:inline-block;
-	width:20%;
-	
-
+	height:42px;
+	width:29.5%;
 }
-
 .middle-img{
-	height:180px;
-	width:65%;
-	padding-left:300px;
-	margin: 80px 0px 0px;
+	height:175px;
+	width:72.5%;
+	padding-left:318px;
+	margin: 0px 0px 20px;
+}
+.services{
+	display:inline-block;
+	width:17.5%;
+	margin-left:17.3%;
+	margin-right:1%;
+}
+.product{
+	display:inline-block;
+	width:17.5%;
+	margin-right:1%;
+}
+.vision{
+	display:inline-block;
+	width:17.5%;
+}
+hr{
+	width:55.5%;
+	margin-top: 3%;
+	margin-right:27.5%;
+	border:1px solid black;
+}
+.contactcontainer{
+	display:inline-block;
+	width: 25%;
+	padding-bottom:20px;
+	margin-left:17.2%;
+	margin-top:2%;
+	margin-bottom:2%;
+	line-height:20px;
+}
+.copyright{
+	display:block;
+	text-align:center;
+	font-size:12px;
+	width:15%;
+	margin-top:1%;
+	margin-left:37%;
 }
